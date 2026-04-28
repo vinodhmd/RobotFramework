@@ -1,0 +1,27 @@
+==============================================================================
+Testscenarios
+==============================================================================
+Testscenarios.Restful Booker :: Restful Booker API tests � base URL and cre...
+==============================================================================
+Get Bookings from Restful Booker :: Retrieve booking list and spot... | FAIL |
+Parent suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+------------------------------------------------------------------------------
+Create a Booking at Restful Booker :: POST a new booking and verif... | FAIL |
+Parent suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+------------------------------------------------------------------------------
+Delete Booking :: Delete the booking created in the previous test.    | FAIL |
+Parent suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+------------------------------------------------------------------------------
+Testscenarios.Restful Booker :: Restful Booker API tests � base UR... | FAIL |
+Suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+
+3 tests, 0 passed, 3 failed
+==============================================================================
+Testscenarios                                                         | FAIL |
+3 tests, 0 passed, 3 failed
+==============================================================================
+Output:  C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\reports\pabot_results\1\output.xml

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.10.12 on win32)" generated="2026-04-22T12:42:58.598743" rpa="false" schemaversion="5">
+<suite id="s1" name="Testscenarios" source="C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios">
+<suite id="s1-s1" name="sp BDD" source="C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\sp_BDD.robot">
+<kw name="Load Environment Variables" owner="env" type="SETUP">
+<kw name="Load Environment Variables As Suite Variables">
+<msg time="2026-04-22T12:42:58.645581" level="FAIL">No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?</msg>
+<status status="FAIL" start="2026-04-22T12:42:58.645581" elapsed="0.000349">No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?</status>
+</kw>
+<kw name="Log Environment Summary">
+<status status="NOT RUN" start="2026-04-22T12:42:58.645930" elapsed="0.000000"/>
+</kw>
+<doc>Read all keys from the Environments sheet in TestData.xlsx
+for the active ENV and expose them as Suite Variables.
+Call this in Suite Setup of every test suite.</doc>
+<status status="FAIL" start="2026-04-22T12:42:58.644098" elapsed="0.001832">No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?</status>
+</kw>
+<test id="s1-s1-t1" name="Login With Admin" line="12">
+<doc>Verify successful login with valid admin credentials from Excel.</doc>
+<tag>regression</tag>
+<tag>smoke</tag>
+<status status="FAIL" start="2026-04-22T12:42:58.645930" elapsed="0.000000">Parent suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?</status>
+</test>
+<test id="s1-s1-t2" name="Login With Invalid User" line="19">
+<doc>Verify login fails and shows error with invalid credentials.</doc>
+<tag>regression</tag>
+<status status="FAIL" start="2026-04-22T12:42:58.645930" elapsed="0.000000">Parent suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?</status>
+</test>
+<doc>BDD-style login tests driven by credentials from data/TestData.xlsx.
+Environment is selected at runtime via --variable ENV:DEV|QA|PROD.</doc>
+<status status="FAIL" start="2026-04-22T12:42:58.636791" elapsed="0.010708">Suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?</status>
+</suite>
+<status status="FAIL" start="2026-04-22T12:42:58.600752" elapsed="0.047269"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="2" skip="0">regression</stat>
+<stat pass="0" fail="1" skip="0">smoke</stat>
+</tag>
+<suite>
+<stat name="Testscenarios" id="s1" pass="0" fail="2" skip="0">Testscenarios</stat>
+<stat name="sp BDD" id="s1-s1" pass="0" fail="2" skip="0">Testscenarios.sp BDD</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-04-22T12:42:58.639846" level="ERROR">Error in file 'C:\Vinodh\Work\Pythonbase\Robot Framework\core\env.resource' on line 14: Importing library 'excel_config.ExcelConfig' failed: ModuleNotFoundError: No module named 'openpyxl'
+Traceback (most recent call last):
+  File "C:\Vinodh\Work\Pythonbase\Robot Framework\core\excel_config.py", line 17, in &lt;module&gt;
+    import openpyxl
+PYTHONPATH:
+  C:\Vinodh\Work\Pythonbase\Robot Framework\core
+  C:\ProgramData\robocorp\ht\Scripts\robot.exe
+  C:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\python310.zip
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\DLLs
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced
+  C:\ProgramData\robocorp\ht
+  C:\ProgramData\robocorp\ht\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>

@@ -1,0 +1,18 @@
+--suite Testscenarios.sp BDD
+--variable ENV:DEV
+--variable CALLER_ID:b90078f971ae430a898aa1ef7f7fdfbe
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:6
+--variable PABOTISLASTEXECUTIONINPOOL:1
+--variable PABOTNUMBEROFPROCESSES:16
+--variable PABOTQUEUEINDEX:6
+--variable PABOTLASTLEVEL:
+--outputdir C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\reports\pabot_results\6
+--pythonpath C:\Vinodh\Work\Pythonbase\Robot Framework\core
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\testscenarios

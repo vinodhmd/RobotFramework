@@ -1,0 +1,23 @@
+==============================================================================
+Testscenarios
+==============================================================================
+Testscenarios.Testautomationpractice :: Practice test automation � LOGIN_UR...
+==============================================================================
+My First Test :: Basic smoke test � logs a message.                   | FAIL |
+Parent suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+------------------------------------------------------------------------------
+Create A Random String :: Generate and log a random 10-character s... | FAIL |
+Parent suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+------------------------------------------------------------------------------
+Testscenarios.Testautomationpractice :: Practice test automation �... | FAIL |
+Suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+
+2 tests, 0 passed, 2 failed
+==============================================================================
+Testscenarios                                                         | FAIL |
+2 tests, 0 passed, 2 failed
+==============================================================================
+Output:  C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\reports\pabot_results\2\output.xml

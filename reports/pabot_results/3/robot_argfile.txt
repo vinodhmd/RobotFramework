@@ -1,0 +1,18 @@
+--suite Testscenarios.Vehicle Insurance App
+--variable ENV:DEV
+--variable CALLER_ID:3678e999009e4842a8b34991b9e2f7ec
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:3
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:16
+--variable PABOTQUEUEINDEX:3
+--variable PABOTLASTLEVEL:Testscenarios.Vehicle Insurance App
+--outputdir C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\reports\pabot_results\3
+--pythonpath C:\Vinodh\Work\Pythonbase\Robot Framework\core
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\testscenarios

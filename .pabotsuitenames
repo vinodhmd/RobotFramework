@@ -1,0 +1,11 @@
+datasources:fea6a7b2c69a3ca603abf4a444599047388383bf
+commandlineoptions:dea598ceb7cd0914783e2d2af4d0d87b74207c67
+suitesfrom:no-suites-from-option
+file:0c3e9d621ccc316cdd398992d9896de9a4460032
+--suite Testscenarios.Practicetestautomation
+--suite Testscenarios.Restful Booker
+--suite Testscenarios.Testautomationpractice
+--suite Testscenarios.Vehicle Insurance App
+--suite Testscenarios.practicetestautomationSuiteA
+--suite Testscenarios.practicetestautomationSuiteB
+--suite Testscenarios.sp BDD

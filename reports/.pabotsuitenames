@@ -1,0 +1,6 @@
+datasources:518b33419a9f6b842b64031fb7bc958df29a86fc
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:eb16d14d3bcc8a711c88fa36ef014a4acdfeab01
+--suite Suites.practicetestautomationSuiteA
+--suite Suites.practicetestautomationSuiteB

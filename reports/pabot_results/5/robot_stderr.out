@@ -1,0 +1,9 @@
+Error processing line 1 of c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site.py", line 186, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored

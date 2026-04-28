@@ -1,0 +1,329 @@
+[INFO]    Initialized logging in C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\reports\pabot_results
+[INFO]    Error processing line 1 of c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\distutils-precedence.pth:
+[INFO]      Traceback (most recent call last):
+[INFO]        File "c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site.py", line 186, in addpackage
+[INFO]          exec(line)
+[INFO]        File "<string>", line 1, in <module>
+[INFO]      ModuleNotFoundError: No module named '_distutils_hack'
+[INFO]    Remainder of file ignored
+[INFO]    Robot Framework remote server at 127.0.0.1:8270 started.
+[DEBUG]   2026-04-22 12:42:58.316484 [PID:27504] [5] [ID:5] EXECUTING Testscenarios.practicetestautomationSuiteB
+[DEBUG]   2026-04-22 12:42:58.316484 [PID:13072] [1] [ID:1] EXECUTING Testscenarios.Restful Booker
+[DEBUG]   2026-04-22 12:42:58.316484 [PID:11860] [4] [ID:4] EXECUTING Testscenarios.practicetestautomationSuiteA
+[DEBUG]   2026-04-22 12:42:58.316484 [PID:28260] [3] [ID:3] EXECUTING Testscenarios.Vehicle Insurance App
+[DEBUG]   2026-04-22 12:42:58.316484 [PID:19276] [0] [ID:0] EXECUTING Testscenarios.Practicetestautomation
+[DEBUG]   2026-04-22 12:42:58.316484 [PID:13468] [6] [ID:6] EXECUTING Testscenarios.sp BDD
+[DEBUG]   2026-04-22 12:42:58.316484 [PID:24700] [2] [ID:2] EXECUTING Testscenarios.Testautomationpractice
+[INFO]    2026-04-22 12:42:58.856396 [PID:19276] [0] [ID:0] Execution failed in Testscenarios.Practicetestautomation with 3 failing test(s)
+==============================================================================
+Testscenarios
+==============================================================================
+Testscenarios.Practicetestautomation :: A complete test suite for web login...
+==============================================================================
+Valid Login Test :: Test valid login with correct credentials.        | FAIL |
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.
+------------------------------------------------------------------------------
+Invalid Username Login Test :: Test login with an incorrect userna... | FAIL |
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.
+------------------------------------------------------------------------------
+Invalid Password Login Test :: Test login with a correct username ... | FAIL |
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.
+------------------------------------------------------------------------------
+Testscenarios.Practicetestautomation :: A complete test suite for ... | FAIL |
+3 tests, 0 passed, 3 failed
+==============================================================================
+Testscenarios                                                         | FAIL |
+3 tests, 0 passed, 3 failed
+==============================================================================
+Output:  C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\reports\pabot_results\0\output.xml
+
+Error processing line 1 of c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site.py", line 186, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+[ ERROR ] Error in file 'C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\practicetestautomation.robot' on line 4: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Vinodh\Work\Pythonbase\Robot Framework\core
+  C:\ProgramData\robocorp\ht\Scripts\robot.exe
+  C:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\python310.zip
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\DLLs
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced
+  C:\ProgramData\robocorp\ht
+  C:\ProgramData\robocorp\ht\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\Pythonwin
+[INFO]    2026-04-22 12:42:58.859444 [PID:13468] [6] [ID:6] Execution failed in Testscenarios.sp BDD with 2 failing test(s)
+==============================================================================
+Testscenarios
+==============================================================================
+Testscenarios.sp BDD :: BDD-style login tests driven by credentials from da...
+==============================================================================
+Login With Admin :: Verify successful login with valid admin crede... | FAIL |
+Parent suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+------------------------------------------------------------------------------
+Login With Invalid User :: Verify login fails and shows error with... | FAIL |
+Parent suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+------------------------------------------------------------------------------
+Testscenarios.sp BDD :: BDD-style login tests driven by credential... | FAIL |
+Suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+
+2 tests, 0 passed, 2 failed
+==============================================================================
+Testscenarios                                                         | FAIL |
+2 tests, 0 passed, 2 failed
+==============================================================================
+Output:  C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\reports\pabot_results\6\output.xml
+
+Error processing line 1 of c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site.py", line 186, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+[ ERROR ] Error in file 'C:\Vinodh\Work\Pythonbase\Robot Framework\core\env.resource' on line 14: Importing library 'excel_config.ExcelConfig' failed: ModuleNotFoundError: No module named 'openpyxl'
+Traceback (most recent call last):
+  File "C:\Vinodh\Work\Pythonbase\Robot Framework\core\excel_config.py", line 17, in <module>
+    import openpyxl
+PYTHONPATH:
+  C:\Vinodh\Work\Pythonbase\Robot Framework\core
+  C:\ProgramData\robocorp\ht\Scripts\robot.exe
+  C:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\python310.zip
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\DLLs
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced
+  C:\ProgramData\robocorp\ht
+  C:\ProgramData\robocorp\ht\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\Pythonwin
+[INFO]    2026-04-22 12:42:58.861742 [PID:28260] [3] [ID:3] Execution failed in Testscenarios.Vehicle Insurance App with 1 failing test(s)
+==============================================================================
+Testscenarios
+==============================================================================
+Testscenarios.Vehicle Insurance App :: Vehicle Insurance UI tests ï¿½ browser...
+==============================================================================
+Create Quote for Car :: End-to-end quote creation for the Automobi... | FAIL |
+Parent suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+------------------------------------------------------------------------------
+Testscenarios.Vehicle Insurance App :: Vehicle Insurance UI tests ... | FAIL |
+Suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+
+1 test, 0 passed, 1 failed
+==============================================================================
+Testscenarios                                                         | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\reports\pabot_results\3\output.xml
+
+Error processing line 1 of c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site.py", line 186, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+[ ERROR ] Error in file 'C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\Vehicle Insurance App.robot' on line 8: Importing library 'Browser' failed: ModuleNotFoundError: No module named 'Browser'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Vinodh\Work\Pythonbase\Robot Framework\core
+  C:\ProgramData\robocorp\ht\Scripts\robot.exe
+  C:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\python310.zip
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\DLLs
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced
+  C:\ProgramData\robocorp\ht
+  C:\ProgramData\robocorp\ht\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\Pythonwin
+[ ERROR ] Error in file 'C:\Vinodh\Work\Pythonbase\Robot Framework\core\env.resource' on line 14: Importing library 'excel_config.ExcelConfig' failed: ModuleNotFoundError: No module named 'openpyxl'
+Traceback (most recent call last):
+  File "C:\Vinodh\Work\Pythonbase\Robot Framework\core\excel_config.py", line 17, in <module>
+    import openpyxl
+PYTHONPATH:
+  C:\Vinodh\Work\Pythonbase\Robot Framework\core
+  C:\ProgramData\robocorp\ht\Scripts\robot.exe
+  C:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\python310.zip
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\DLLs
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced
+  C:\ProgramData\robocorp\ht
+  C:\ProgramData\robocorp\ht\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\Pythonwin
+[INFO]    2026-04-22 12:42:58.862198 [PID:24700] [2] [ID:2] Execution failed in Testscenarios.Testautomationpractice with 2 failing test(s)
+==============================================================================
+Testscenarios
+==============================================================================
+Testscenarios.Testautomationpractice :: Practice test automation ï¿½ LOGIN_UR...
+==============================================================================
+My First Test :: Basic smoke test ï¿½ logs a message.                   | FAIL |
+Parent suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+------------------------------------------------------------------------------
+Create A Random String :: Generate and log a random 10-character s... | FAIL |
+Parent suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+------------------------------------------------------------------------------
+Testscenarios.Testautomationpractice :: Practice test automation ï¿½... | FAIL |
+Suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+
+2 tests, 0 passed, 2 failed
+==============================================================================
+Testscenarios                                                         | FAIL |
+2 tests, 0 passed, 2 failed
+==============================================================================
+Output:  C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\reports\pabot_results\2\output.xml
+
+Error processing line 1 of c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site.py", line 186, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+[ ERROR ] Error in file 'C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\testautomationpractice.robot' on line 6: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Vinodh\Work\Pythonbase\Robot Framework\core
+  C:\ProgramData\robocorp\ht\Scripts\robot.exe
+  C:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\python310.zip
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\DLLs
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced
+  C:\ProgramData\robocorp\ht
+  C:\ProgramData\robocorp\ht\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\Pythonwin
+[ ERROR ] Error in file 'C:\Vinodh\Work\Pythonbase\Robot Framework\core\env.resource' on line 14: Importing library 'excel_config.ExcelConfig' failed: ModuleNotFoundError: No module named 'openpyxl'
+Traceback (most recent call last):
+  File "C:\Vinodh\Work\Pythonbase\Robot Framework\core\excel_config.py", line 17, in <module>
+    import openpyxl
+PYTHONPATH:
+  C:\Vinodh\Work\Pythonbase\Robot Framework\core
+  C:\ProgramData\robocorp\ht\Scripts\robot.exe
+  C:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\python310.zip
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\DLLs
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced
+  C:\ProgramData\robocorp\ht
+  C:\ProgramData\robocorp\ht\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\Pythonwin
+[INFO]    2026-04-22 12:42:58.862198 [PID:13072] [1] [ID:1] Execution failed in Testscenarios.Restful Booker with 3 failing test(s)
+==============================================================================
+Testscenarios
+==============================================================================
+Testscenarios.Restful Booker :: Restful Booker API tests ï¿½ base URL and cre...
+==============================================================================
+Get Bookings from Restful Booker :: Retrieve booking list and spot... | FAIL |
+Parent suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+------------------------------------------------------------------------------
+Create a Booking at Restful Booker :: POST a new booking and verif... | FAIL |
+Parent suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+------------------------------------------------------------------------------
+Delete Booking :: Delete the booking created in the previous test.    | FAIL |
+Parent suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+------------------------------------------------------------------------------
+Testscenarios.Restful Booker :: Restful Booker API tests ï¿½ base UR... | FAIL |
+Suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+
+3 tests, 0 passed, 3 failed
+==============================================================================
+Testscenarios                                                         | FAIL |
+3 tests, 0 passed, 3 failed
+==============================================================================
+Output:  C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\reports\pabot_results\1\output.xml
+
+Error processing line 1 of c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site.py", line 186, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+[ ERROR ] Error in file 'C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\Restful Booker.robot' on line 8: Importing library 'RequestsLibrary' failed: ModuleNotFoundError: No module named 'RequestsLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Vinodh\Work\Pythonbase\Robot Framework\core
+  C:\ProgramData\robocorp\ht\Scripts\robot.exe
+  C:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\python310.zip
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\DLLs
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced
+  C:\ProgramData\robocorp\ht
+  C:\ProgramData\robocorp\ht\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\Pythonwin
+[ ERROR ] Error in file 'C:\Vinodh\Work\Pythonbase\Robot Framework\core\env.resource' on line 14: Importing library 'excel_config.ExcelConfig' failed: ModuleNotFoundError: No module named 'openpyxl'
+Traceback (most recent call last):
+  File "C:\Vinodh\Work\Pythonbase\Robot Framework\core\excel_config.py", line 17, in <module>
+    import openpyxl
+PYTHONPATH:
+  C:\Vinodh\Work\Pythonbase\Robot Framework\core
+  C:\ProgramData\robocorp\ht\Scripts\robot.exe
+  C:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\python310.zip
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\DLLs
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced
+  C:\ProgramData\robocorp\ht
+  C:\ProgramData\robocorp\ht\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\Pythonwin
+[DEBUG]   2026-04-22 12:43:03.665539 [PID:11860] [4] [ID:4] still running Testscenarios.practicetestautomationSuiteA after 5.0s
+[DEBUG]   2026-04-22 12:43:03.665539 [PID:27504] [5] [ID:5] still running Testscenarios.practicetestautomationSuiteB after 5.0s
+[DEBUG]   2026-04-22 12:43:14.388763 [PID:11860] [4] [ID:4] still running Testscenarios.practicetestautomationSuiteA after 15.0s
+[DEBUG]   2026-04-22 12:43:14.492208 [PID:27504] [5] [ID:5] still running Testscenarios.practicetestautomationSuiteB after 15.0s

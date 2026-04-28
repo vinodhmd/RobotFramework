@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.10.12 on win32)" generated="2026-04-22T12:32:19.558517" rpa="false" schemaversion="5">
+<suite id="s1" name="Testscenarios" source="C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios">
+<suite id="s1-s1" name="Practicetestautomation" source="C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\practicetestautomation.robot">
+<test id="s1-s1-t1" name="Valid Login Test" line="17">
+<kw name="Open Homepage">
+<kw name="Open Browser">
+<msg time="2026-04-22T12:32:19.587749" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2026-04-22T12:32:19.587749" elapsed="0.000000">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" start="2026-04-22T12:32:19.587749" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Element Is Visible">
+<arg>id:username</arg>
+<status status="NOT RUN" start="2026-04-22T12:32:19.588290" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2026-04-22T12:32:19.586679" elapsed="0.001611">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Input Username">
+<arg>${VALID_USER}</arg>
+<status status="NOT RUN" start="2026-04-22T12:32:19.588290" elapsed="0.000000"/>
+</kw>
+<kw name="Input Login Password">
+<arg>${VALID_PASSWORD}</arg>
+<status status="NOT RUN" start="2026-04-22T12:32:19.588290" elapsed="0.000000"/>
+</kw>
+<kw name="Click Submit Button">
+<status status="NOT RUN" start="2026-04-22T12:32:19.588290" elapsed="0.000000"/>
+</kw>
+<kw name="Verify Successful Login">
+<status status="NOT RUN" start="2026-04-22T12:32:19.588836" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg time="2026-04-22T12:32:19.589364" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" start="2026-04-22T12:32:19.589364" elapsed="0.000000">No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>Test valid login with correct credentials.</doc>
+<status status="FAIL" start="2026-04-22T12:32:19.586169" elapsed="0.003195">No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-s1-t2" name="Invalid Username Login Test" line="26">
+<kw name="Open Homepage">
+<kw name="Open Browser">
+<msg time="2026-04-22T12:32:19.590414" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2026-04-22T12:32:19.590414" elapsed="0.000000">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" start="2026-04-22T12:32:19.590414" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Element Is Visible">
+<arg>id:username</arg>
+<status status="NOT RUN" start="2026-04-22T12:32:19.590414" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2026-04-22T12:32:19.589867" elapsed="0.001287">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Input Username">
+<arg>${INVALID_USER}</arg>
+<status status="NOT RUN" start="2026-04-22T12:32:19.591154" elapsed="0.000000"/>
+</kw>
+<kw name="Input Login Password">
+<arg>${VALID_PASSWORD}</arg>
+<status status="NOT RUN" start="2026-04-22T12:32:19.591154" elapsed="0.000000"/>
+</kw>
+<kw name="Click Submit Button">
+<status status="NOT RUN" start="2026-04-22T12:32:19.591154" elapsed="0.000000"/>
+</kw>
+<kw name="Verify Error Message">
+<arg>Your username is invalid!</arg>
+<status status="NOT RUN" start="2026-04-22T12:32:19.591154" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg time="2026-04-22T12:32:19.592248" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" start="2026-04-22T12:32:19.592248" elapsed="0.000000">No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>Test login with an incorrect username but correct password.</doc>
+<status status="FAIL" start="2026-04-22T12:32:19.589867" elapsed="0.002381">No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-s1-t3" name="Invalid Password Login Test" line="35">
+<kw name="Open Homepage">
+<kw name="Open Browser">
+<msg time="2026-04-22T12:32:19.593486" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2026-04-22T12:32:19.593486" elapsed="0.000000">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" start="2026-04-22T12:32:19.593486" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Element Is Visible">
+<arg>id:username</arg>
+<status status="NOT RUN" start="2026-04-22T12:32:19.593486" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2026-04-22T12:32:19.592594" elapsed="0.000892">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Input Username">
+<arg>${VALID_USER}</arg>
+<status status="NOT RUN" start="2026-04-22T12:32:19.593486" elapsed="0.000000"/>
+</kw>
+<kw name="Input Login Password">
+<arg>${INVALID_PASSWORD}</arg>
+<status status="NOT RUN" start="2026-04-22T12:32:19.593486" elapsed="0.000000"/>
+</kw>
+<kw name="Click Submit Button">
+<status status="NOT RUN" start="2026-04-22T12:32:19.593486" elapsed="0.000698"/>
+</kw>
+<kw name="Verify Error Message">
+<arg>Your password is invalid!</arg>
+<status status="NOT RUN" start="2026-04-22T12:32:19.594184" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg time="2026-04-22T12:32:19.594719" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" start="2026-04-22T12:32:19.594719" elapsed="0.000000">No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>Test login with a correct username but incorrect password.</doc>
+<status status="FAIL" start="2026-04-22T12:32:19.592594" elapsed="0.002125">No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<doc>A complete test suite for web login on Practice Test Automation.</doc>
+<status status="FAIL" start="2026-04-22T12:32:19.582989" elapsed="0.012278"/>
+</suite>
+<suite id="s1-s2" name="practicetestautomationSuiteA" source="C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\practicetestautomationSuiteA.robot">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2026-04-22T12:32:19.597184" level="INFO">Suite A Setup</msg>
+<arg>Suite A Setup</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:32:19.597184" elapsed="0.000000"/>
+</kw>
+<test id="s1-s2-t1" name="Valid Login Test" line="10">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2026-04-22T12:32:19.598313" level="INFO">Test Setup</msg>
+<arg>Test Setup</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:32:19.597693" elapsed="0.000620"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-22T12:32:19.598313" level="INFO">Test Case 1</msg>
+<arg>Test Case 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:32:19.598313" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-04-22T12:32:29.600169" level="INFO">Slept 10 seconds.</msg>
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-04-22T12:32:19.598313" elapsed="10.001856"/>
+</kw>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2026-04-22T12:32:29.600912" level="INFO">Test Teardown</msg>
+<arg>Test Teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:32:29.600169" elapsed="0.000743"/>
+</kw>
+<status status="PASS" start="2026-04-22T12:32:19.597184" elapsed="10.003728"/>
+</test>
+<test id="s1-s2-t2" name="Invalid Username Login Test" line="14">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2026-04-22T12:32:29.602494" level="INFO">Test Setup</msg>
+<arg>Test Setup</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:32:29.601956" elapsed="0.001045"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-22T12:32:29.603001" level="INFO">Test Case 2</msg>
+<arg>Test Case 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:32:29.603001" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-04-22T12:32:39.605701" level="INFO">Slept 10 seconds.</msg>
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-04-22T12:32:29.603001" elapsed="10.003319"/>
+</kw>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2026-04-22T12:32:39.608375" level="INFO">Test Teardown</msg>
+<arg>Test Teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:32:39.606320" elapsed="0.002055"/>
+</kw>
+<status status="PASS" start="2026-04-22T12:32:29.601443" elapsed="10.006932"/>
+</test>
+<test id="s1-s2-t3" name="Invalid Password Login Test" line="18">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2026-04-22T12:32:39.610200" level="INFO">Test Setup</msg>
+<arg>Test Setup</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:32:39.609657" elapsed="0.001073"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-22T12:32:39.610730" level="INFO">Test Case 3</msg>
+<arg>Test Case 3</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:32:39.610730" elapsed="0.000535"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-04-22T12:32:49.621332" level="INFO">Slept 10 seconds.</msg>
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-04-22T12:32:39.611265" elapsed="10.010067"/>
+</kw>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2026-04-22T12:32:49.622008" level="INFO">Test Teardown</msg>
+<arg>Test Teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:32:49.622008" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2026-04-22T12:32:39.609148" elapsed="10.012860"/>
+</test>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2026-04-22T12:32:49.624973" level="INFO">Suite A Teardown</msg>
+<arg>Suite A Teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:32:49.624973" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2026-04-22T12:32:19.595599" elapsed="30.029374"/>
+</suite>
+<suite id="s1-s3" name="practicetestautomationSuiteB" source="C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\practicetestautomationSuiteB.robot">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2026-04-22T12:32:49.630628" level="INFO">Suite B Setup</msg>
+<arg>Suite B Setup</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:32:49.629302" elapsed="0.001326"/>
+</kw>
+<test id="s1-s3-t1" name="Valid Login Test" line="10">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2026-04-22T12:32:49.632324" level="INFO">Test Setup</msg>
+<arg>Test Setup</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:32:49.631749" elapsed="0.000575"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-22T12:32:49.632324" level="INFO">Test Case 1</msg>
+<arg>Test Case 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:32:49.632324" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-04-22T12:32:59.636730" level="INFO">Slept 10 seconds.</msg>
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-04-22T12:32:49.633013" elapsed="10.003717"/>
+</kw>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2026-04-22T12:32:59.638475" level="INFO">Test Teardown</msg>
+<arg>Test Teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:32:59.637451" elapsed="0.001024"/>
+</kw>
+<status status="PASS" start="2026-04-22T12:32:49.630628" elapsed="10.007847"/>
+</test>
+<test id="s1-s3-t2" name="Invalid Username Login Test" line="14">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2026-04-22T12:32:59.642125" level="INFO">Test Setup</msg>
+<arg>Test Setup</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:32:59.641580" elapsed="0.001093"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-22T12:32:59.643758" level="INFO">Test Case 2</msg>
+<arg>Test Case 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:32:59.643201" elapsed="0.000557"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-04-22T12:33:09.659268" level="INFO">Slept 10 seconds.</msg>
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-04-22T12:32:59.644304" elapsed="10.015603"/>
+</kw>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2026-04-22T12:33:09.659907" level="INFO">Test Teardown</msg>
+<arg>Test Teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:33:09.659907" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2026-04-22T12:32:59.639941" elapsed="10.019966"/>
+</test>
+<test id="s1-s3-t3" name="Invalid Password Login Test" line="18">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2026-04-22T12:33:09.664983" level="INFO">Test Setup</msg>
+<arg>Test Setup</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:33:09.663820" elapsed="0.001163"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-22T12:33:09.666063" level="INFO">Test Case 3</msg>
+<arg>Test Case 3</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:33:09.665536" elapsed="0.000527"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-04-22T12:33:19.669532" level="INFO">Slept 10 seconds.</msg>
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-04-22T12:33:09.666616" elapsed="10.002916"/>
+</kw>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2026-04-22T12:33:19.672052" level="INFO">Test Teardown</msg>
+<arg>Test Teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.670616" elapsed="0.001436"/>
+</kw>
+<status status="PASS" start="2026-04-22T12:33:09.659907" elapsed="10.012145"/>
+</test>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2026-04-22T12:33:19.673550" level="INFO">Suite B Teardown</msg>
+<arg>Suite B Teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.672987" elapsed="0.000563"/>
+</kw>
+<status status="PASS" start="2026-04-22T12:32:49.626433" elapsed="30.047117"/>
+</suite>
+<suite id="s1-s4" name="Restful Booker" source="C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\Restful Booker.robot">
+<kw name="Run Keywords" owner="BuiltIn" type="SETUP">
+<kw name="Load Environment Variables" owner="env">
+<kw name="Load Environment Variables As Suite Variables" owner="excel_config.ExcelConfig">
+<msg time="2026-04-22T12:33:19.865470" level="INFO">${BASE_URL} = http://sampleapp.tricentis.com/</msg>
+<msg time="2026-04-22T12:33:19.865988" level="INFO">${BROWSER} = chromium</msg>
+<msg time="2026-04-22T12:33:19.865988" level="INFO">${HEADLESS} = false</msg>
+<msg time="2026-04-22T12:33:19.866504" level="INFO">${API_URL} = https://restful-booker.herokuapp.com</msg>
+<msg time="2026-04-22T12:33:19.867047" level="INFO">${API_USERNAME} = admin</msg>
+<msg time="2026-04-22T12:33:19.867586" level="INFO">${API_PASSWORD} = password123</msg>
+<msg time="2026-04-22T12:33:19.867586" level="INFO">${LOGIN_URL} = https://testautomationpractice.blogspot.com/</msg>
+<msg time="2026-04-22T12:33:19.868199" level="INFO">${APP_USERNAME} = admin</msg>
+<msg time="2026-04-22T12:33:19.868199" level="INFO">${APP_PASSWORD} = admin</msg>
+<msg time="2026-04-22T12:33:19.869205" level="INFO">${TIMEOUT} = 30</msg>
+<msg time="2026-04-22T12:33:19.869205" level="INFO">${RETRY_COUNT} = 2</msg>
+<msg time="2026-04-22T12:33:19.870207" level="INFO">${SCREENSHOT_ON_FAIL} = true</msg>
+<msg time="2026-04-22T12:33:19.870207" level="INFO">Loaded 12 environment variables from Excel for ENV='DEV'</msg>
+<doc>Load all environment variables from Excel and set them as Robot Framework
+Suite Variables so they are available across all test cases in the suite.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.857866" elapsed="0.012341"/>
+</kw>
+<kw name="Log Environment Summary" owner="excel_config.ExcelConfig">
+<msg time="2026-04-22T12:33:19.870207" level="INFO">  ENV = DEV
+  XLSX = C:\Vinodh\Work\Pythonbase\Robot Framework\data\TestData.xlsx
+  Variables:
+    BASE_URL = http://sampleapp.tricentis.com/
+    BROWSER = chromium
+    HEADLESS = false
+    API_URL = https://restful-booker.herokuapp.com
+    API_USERNAME = admin
+    API_PASSWORD = ***
+    LOGIN_URL = https://testautomationpractice.blogspot.com/
+    APP_USERNAME = admin
+    APP_PASSWORD = ***
+    TIMEOUT = 30
+    RETRY_COUNT = 2
+    SCREENSHOT_ON_FAIL = true</msg>
+<doc>Log a summary of all loaded environment variables (masks passwords).</doc>
+<status status="PASS" start="2026-04-22T12:33:19.870207" elapsed="0.000000"/>
+</kw>
+<doc>Read all keys from the Environments sheet in TestData.xlsx
+for the active ENV and expose them as Suite Variables.
+Call this in Suite Setup of every test suite.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.857866" elapsed="0.012341"/>
+</kw>
+<kw name="Authenticate as Admin">
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-04-22T12:33:19.871209" level="INFO">${body} = {'username': 'admin', 'password': 'password123'}</msg>
+<var>${body}</var>
+<arg>username=${API_USERNAME}</arg>
+<arg>password=${API_PASSWORD}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.870207" elapsed="0.001002"/>
+</kw>
+<kw name="POST">
+<msg time="2026-04-22T12:33:19.871714" level="FAIL">No keyword with name 'POST' found.</msg>
+<var>${response}</var>
+<arg>url=${API_URL}/auth</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2026-04-22T12:33:19.871714" elapsed="0.000000">No keyword with name 'POST' found.</status>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>${response.json()}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-04-22T12:33:19.871714" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${token}</var>
+<arg>${response.json()}[token]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2026-04-22T12:33:19.871714" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>${token}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-04-22T12:33:19.871714" elapsed="0.000000"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<arg>${token}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="NOT RUN" start="2026-04-22T12:33:19.871714" elapsed="0.000000"/>
+</kw>
+<doc>POST to /auth with API_USERNAME / API_PASSWORD from Excel and
+store the token as a suite variable.</doc>
+<status status="FAIL" start="2026-04-22T12:33:19.870207" elapsed="0.001507">No keyword with name 'POST' found.</status>
+</kw>
+<arg>Load Environment Variables</arg>
+<arg>AND</arg>
+<arg>Authenticate as Admin</arg>
+<doc>Executes all the given keywords in a sequence.</doc>
+<status status="FAIL" start="2026-04-22T12:33:19.856637" elapsed="0.016085">No keyword with name 'POST' found.</status>
+</kw>
+<test id="s1-s4-t1" name="Get Bookings from Restful Booker" line="19">
+<doc>Retrieve booking list and spot-check first 3 items.</doc>
+<tag>api</tag>
+<tag>smoke</tag>
+<status status="FAIL" start="2026-04-22T12:33:19.872722" elapsed="0.000000">Parent suite setup failed:
+No keyword with name 'POST' found.</status>
+</test>
+<test id="s1-s4-t2" name="Create a Booking at Restful Booker" line="36">
+<doc>POST a new booking and verify it was persisted.</doc>
+<tag>api</tag>
+<tag>smoke</tag>
+<status status="FAIL" start="2026-04-22T12:33:19.873351" elapsed="0.000507">Parent suite setup failed:
+No keyword with name 'POST' found.</status>
+</test>
+<test id="s1-s4-t3" name="Delete Booking" line="56">
+<doc>Delete the booking created in the previous test.</doc>
+<tag>api</tag>
+<status status="FAIL" start="2026-04-22T12:33:19.873858" elapsed="0.000521">Parent suite setup failed:
+No keyword with name 'POST' found.</status>
+</test>
+<doc>Restful Booker API tests — base URL and credentials are
+loaded from data/TestData.xlsx via env.resource.
+Run with: --variable ENV:DEV  (default)
+          --variable ENV:QA
+          --variable ENV:PROD</doc>
+<status status="FAIL" start="2026-04-22T12:33:19.674841" elapsed="0.199538">Suite setup failed:
+No keyword with name 'POST' found.</status>
+</suite>
+<suite id="s1-s5" name="sp BDD" source="C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\sp_BDD.robot">
+<kw name="Load Environment Variables" owner="env" type="SETUP">
+<kw name="Load Environment Variables As Suite Variables" owner="excel_config.ExcelConfig">
+<msg time="2026-04-22T12:33:19.886399" level="INFO">${BASE_URL} = http://sampleapp.tricentis.com/</msg>
+<msg time="2026-04-22T12:33:19.886752" level="INFO">${BROWSER} = chromium</msg>
+<msg time="2026-04-22T12:33:19.886752" level="INFO">${HEADLESS} = false</msg>
+<msg time="2026-04-22T12:33:19.887342" level="INFO">${API_URL} = https://restful-booker.herokuapp.com</msg>
+<msg time="2026-04-22T12:33:19.887872" level="INFO">${API_USERNAME} = admin</msg>
+<msg time="2026-04-22T12:33:19.887872" level="INFO">${API_PASSWORD} = password123</msg>
+<msg time="2026-04-22T12:33:19.888508" level="INFO">${LOGIN_URL} = https://testautomationpractice.blogspot.com/</msg>
+<msg time="2026-04-22T12:33:19.889030" level="INFO">${APP_USERNAME} = admin</msg>
+<msg time="2026-04-22T12:33:19.889542" level="INFO">${APP_PASSWORD} = admin</msg>
+<msg time="2026-04-22T12:33:19.890078" level="INFO">${TIMEOUT} = 30</msg>
+<msg time="2026-04-22T12:33:19.890078" level="INFO">${RETRY_COUNT} = 2</msg>
+<msg time="2026-04-22T12:33:19.890078" level="INFO">${SCREENSHOT_ON_FAIL} = true</msg>
+<msg time="2026-04-22T12:33:19.890078" level="INFO">Loaded 12 environment variables from Excel for ENV='DEV'</msg>
+<doc>Load all environment variables from Excel and set them as Robot Framework
+Suite Variables so they are available across all test cases in the suite.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.879283" elapsed="0.010795"/>
+</kw>
+<kw name="Log Environment Summary" owner="excel_config.ExcelConfig">
+<msg time="2026-04-22T12:33:19.890078" level="INFO">  ENV = DEV
+  XLSX = C:\Vinodh\Work\Pythonbase\Robot Framework\data\TestData.xlsx
+  Variables:
+    BASE_URL = http://sampleapp.tricentis.com/
+    BROWSER = chromium
+    HEADLESS = false
+    API_URL = https://restful-booker.herokuapp.com
+    API_USERNAME = admin
+    API_PASSWORD = ***
+    LOGIN_URL = https://testautomationpractice.blogspot.com/
+    APP_USERNAME = admin
+    APP_PASSWORD = ***
+    TIMEOUT = 30
+    RETRY_COUNT = 2
+    SCREENSHOT_ON_FAIL = true</msg>
+<doc>Log a summary of all loaded environment variables (masks passwords).</doc>
+<status status="PASS" start="2026-04-22T12:33:19.890078" elapsed="0.000000"/>
+</kw>
+<doc>Read all keys from the Environments sheet in TestData.xlsx
+for the active ENV and expose them as Suite Variables.
+Call this in Suite Setup of every test suite.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.879283" elapsed="0.010795"/>
+</kw>
+<test id="s1-s5-t1" name="Login With Admin" line="12">
+<kw name="Given I am on the login page" owner="sp_impl_BDD">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>I am on the login page</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.892153" elapsed="0.000520"/>
+</kw>
+<status status="PASS" start="2026-04-22T12:33:19.892153" elapsed="0.000520"/>
+</kw>
+<kw name="When I login with username &quot;${APP_USERNAME}&quot; and password &quot;${APP_PASSWORD}&quot;" owner="sp_impl_BDD" source_name="I login with username &quot;${username}&quot; and password &quot;${password}&quot;">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>I login with username "${username}" and password "${password}"</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.893185" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="&quot;${username}&quot; == &quot;admin&quot; and &quot;${password}&quot; == &quot;admin&quot;">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Login successfully</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.893704" elapsed="0.000000"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2026-04-22T12:33:19.894749" level="INFO">${login_status} = True</msg>
+<arg>${login_status}</arg>
+<arg>True</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.894222" elapsed="0.000527"/>
+</kw>
+<status status="PASS" start="2026-04-22T12:33:19.893185" elapsed="0.001564"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Login failed</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2026-04-22T12:33:19.894749" elapsed="0.000000"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<arg>${login_status}</arg>
+<arg>False</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="NOT RUN" start="2026-04-22T12:33:19.895316" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2026-04-22T12:33:19.894749" elapsed="0.000567"/>
+</branch>
+<status status="PASS" start="2026-04-22T12:33:19.893185" elapsed="0.002131"/>
+</if>
+<status status="PASS" start="2026-04-22T12:33:19.892673" elapsed="0.002643"/>
+</kw>
+<kw name="Then I should see the welcome page" owner="sp_impl_BDD">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>I should see the welcome page</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.895316" elapsed="0.000542"/>
+</kw>
+<if>
+<branch type="IF" condition="&quot;${login_status}&quot; == &quot;True&quot;">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Welcome page is displayed</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.895858" elapsed="0.000521"/>
+</kw>
+<status status="PASS" start="2026-04-22T12:33:19.895858" elapsed="0.000521"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Welcome page is not displayed</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2026-04-22T12:33:19.896379" elapsed="0.000000"/>
+</kw>
+<kw name="Fail" owner="BuiltIn">
+<arg>Welcome page is not displayed</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="NOT RUN" start="2026-04-22T12:33:19.896379" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2026-04-22T12:33:19.896379" elapsed="0.000000"/>
+</branch>
+<status status="PASS" start="2026-04-22T12:33:19.895858" elapsed="0.000521"/>
+</if>
+<status status="PASS" start="2026-04-22T12:33:19.895316" elapsed="0.001578"/>
+</kw>
+<doc>Verify successful login with valid admin credentials from Excel.</doc>
+<tag>regression</tag>
+<tag>smoke</tag>
+<status status="PASS" start="2026-04-22T12:33:19.891587" elapsed="0.005307"/>
+</test>
+<test id="s1-s5-t2" name="Login With Invalid User" line="19">
+<kw name="Given I am on the login page" owner="sp_impl_BDD">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>I am on the login page</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.897439" elapsed="0.000511"/>
+</kw>
+<status status="PASS" start="2026-04-22T12:33:19.897439" elapsed="0.000511"/>
+</kw>
+<kw name="When I login with username &quot;invalid&quot; and password &quot;invalid&quot;" owner="sp_impl_BDD" source_name="I login with username &quot;${username}&quot; and password &quot;${password}&quot;">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>I login with username "${username}" and password "${password}"</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.897950" elapsed="0.000655"/>
+</kw>
+<if>
+<branch type="IF" condition="&quot;${username}&quot; == &quot;admin&quot; and &quot;${password}&quot; == &quot;admin&quot;">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Login successfully</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2026-04-22T12:33:19.899119" elapsed="0.000000"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<arg>${login_status}</arg>
+<arg>True</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="NOT RUN" start="2026-04-22T12:33:19.899119" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2026-04-22T12:33:19.898605" elapsed="0.000514"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Login failed</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.899119" elapsed="0.000000"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2026-04-22T12:33:19.900250" level="INFO">${login_status} = False</msg>
+<arg>${login_status}</arg>
+<arg>False</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.899632" elapsed="0.000618"/>
+</kw>
+<status status="PASS" start="2026-04-22T12:33:19.899119" elapsed="0.001131"/>
+</branch>
+<status status="PASS" start="2026-04-22T12:33:19.898605" elapsed="0.001645"/>
+</if>
+<status status="PASS" start="2026-04-22T12:33:19.897950" elapsed="0.002300"/>
+</kw>
+<kw name="Then I should see the error message" owner="sp_impl_BDD">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>I should see the error message</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.900761" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="&quot;${login_status}&quot; == &quot;False&quot;">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Error message is displayed</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.901289" elapsed="0.000512"/>
+</kw>
+<status status="PASS" start="2026-04-22T12:33:19.901289" elapsed="0.000512"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Error message is not displayed</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2026-04-22T12:33:19.901801" elapsed="0.000000"/>
+</kw>
+<kw name="Fail" owner="BuiltIn">
+<arg>Error message is not displayed</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="NOT RUN" start="2026-04-22T12:33:19.901801" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2026-04-22T12:33:19.901801" elapsed="0.000000"/>
+</branch>
+<status status="PASS" start="2026-04-22T12:33:19.901289" elapsed="0.000512"/>
+</if>
+<status status="PASS" start="2026-04-22T12:33:19.900761" elapsed="0.001040"/>
+</kw>
+<kw name="And I should be able to login again" owner="sp_impl_BDD">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>I should be able to login again</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.902321" elapsed="0.000509"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>The Login page is displayed</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.902830" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2026-04-22T12:33:19.902321" elapsed="0.001029"/>
+</kw>
+<doc>Verify login fails and shows error with invalid credentials.</doc>
+<tag>regression</tag>
+<status status="PASS" start="2026-04-22T12:33:19.896894" elapsed="0.006456"/>
+</test>
+<doc>BDD-style login tests driven by credentials from data/TestData.xlsx.
+Environment is selected at runtime via --variable ENV:DEV|QA|PROD.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.874905" elapsed="0.028445"/>
+</suite>
+<suite id="s1-s6" name="Testautomationpractice" source="C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\testautomationpractice.robot">
+<kw name="Load Environment Variables" owner="env" type="SETUP">
+<kw name="Load Environment Variables As Suite Variables" owner="excel_config.ExcelConfig">
+<msg time="2026-04-22T12:33:19.923470" level="INFO">${BASE_URL} = http://sampleapp.tricentis.com/</msg>
+<msg time="2026-04-22T12:33:19.924015" level="INFO">${BROWSER} = chromium</msg>
+<msg time="2026-04-22T12:33:19.924544" level="INFO">${HEADLESS} = false</msg>
+<msg time="2026-04-22T12:33:19.925066" level="INFO">${API_URL} = https://restful-booker.herokuapp.com</msg>
+<msg time="2026-04-22T12:33:19.925596" level="INFO">${API_USERNAME} = admin</msg>
+<msg time="2026-04-22T12:33:19.925596" level="INFO">${API_PASSWORD} = password123</msg>
+<msg time="2026-04-22T12:33:19.926124" level="INFO">${LOGIN_URL} = https://testautomationpractice.blogspot.com/</msg>
+<msg time="2026-04-22T12:33:19.926635" level="INFO">${APP_USERNAME} = admin</msg>
+<msg time="2026-04-22T12:33:19.927164" level="INFO">${APP_PASSWORD} = admin</msg>
+<msg time="2026-04-22T12:33:19.927672" level="INFO">${TIMEOUT} = 30</msg>
+<msg time="2026-04-22T12:33:19.927672" level="INFO">${RETRY_COUNT} = 2</msg>
+<msg time="2026-04-22T12:33:19.927672" level="INFO">${SCREENSHOT_ON_FAIL} = true</msg>
+<msg time="2026-04-22T12:33:19.927672" level="INFO">Loaded 12 environment variables from Excel for ENV='DEV'</msg>
+<doc>Load all environment variables from Excel and set them as Robot Framework
+Suite Variables so they are available across all test cases in the suite.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.916587" elapsed="0.011085"/>
+</kw>
+<kw name="Log Environment Summary" owner="excel_config.ExcelConfig">
+<msg time="2026-04-22T12:33:19.929182" level="INFO">  ENV = DEV
+  XLSX = C:\Vinodh\Work\Pythonbase\Robot Framework\data\TestData.xlsx
+  Variables:
+    BASE_URL = http://sampleapp.tricentis.com/
+    BROWSER = chromium
+    HEADLESS = false
+    API_URL = https://restful-booker.herokuapp.com
+    API_USERNAME = admin
+    API_PASSWORD = ***
+    LOGIN_URL = https://testautomationpractice.blogspot.com/
+    APP_USERNAME = admin
+    APP_PASSWORD = ***
+    TIMEOUT = 30
+    RETRY_COUNT = 2
+    SCREENSHOT_ON_FAIL = true</msg>
+<doc>Log a summary of all loaded environment variables (masks passwords).</doc>
+<status status="PASS" start="2026-04-22T12:33:19.929182" elapsed="0.000000"/>
+</kw>
+<doc>Read all keys from the Environments sheet in TestData.xlsx
+for the active ENV and expose them as Suite Variables.
+Call this in Suite Setup of every test suite.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.916033" elapsed="0.013149"/>
+</kw>
+<test id="s1-s6-t1" name="My First Test" line="14">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Hello, Robot Framework!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.930185" elapsed="0.000000"/>
+</kw>
+<doc>Basic smoke test — logs a message.</doc>
+<tag>smoke</tag>
+<status status="PASS" start="2026-04-22T12:33:19.929776" elapsed="0.000409"/>
+</test>
+<test id="s1-s6-t2" name="Create A Random String" line="19">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>We are going to generate a random string</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.931204" elapsed="0.000000"/>
+</kw>
+<kw name="Generate Random String" owner="String">
+<arg>10</arg>
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.931204" elapsed="0.000523"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>We finished generating a random string</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.931727" elapsed="0.000000"/>
+</kw>
+<doc>Generate and log a random 10-character string.</doc>
+<tag>regression</tag>
+<status status="PASS" start="2026-04-22T12:33:19.930689" elapsed="0.001038"/>
+</test>
+<doc>Practice test automation — LOGIN_URL and BROWSER are loaded
+from data/TestData.xlsx via env.resource.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.903990" elapsed="0.028247"/>
+</suite>
+<suite id="s1-s7" name="Vehicle Insurance App" source="C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\Vehicle Insurance App.robot">
+<kw name="Run Keywords" owner="BuiltIn" type="SETUP">
+<kw name="Load Environment Variables" owner="env">
+<kw name="Load Environment Variables As Suite Variables" owner="excel_config.ExcelConfig">
+<msg time="2026-04-22T12:33:19.946971" level="INFO">${BASE_URL} = http://sampleapp.tricentis.com/</msg>
+<msg time="2026-04-22T12:33:19.947510" level="INFO">${BROWSER} = chromium</msg>
+<msg time="2026-04-22T12:33:19.948552" level="INFO">${HEADLESS} = false</msg>
+<msg time="2026-04-22T12:33:19.949060" level="INFO">${API_URL} = https://restful-booker.herokuapp.com</msg>
+<msg time="2026-04-22T12:33:19.949571" level="INFO">${API_USERNAME} = admin</msg>
+<msg time="2026-04-22T12:33:19.950575" level="INFO">${API_PASSWORD} = password123</msg>
+<msg time="2026-04-22T12:33:19.951077" level="INFO">${LOGIN_URL} = https://testautomationpractice.blogspot.com/</msg>
+<msg time="2026-04-22T12:33:19.952080" level="INFO">${APP_USERNAME} = admin</msg>
+<msg time="2026-04-22T12:33:19.953440" level="INFO">${APP_PASSWORD} = admin</msg>
+<msg time="2026-04-22T12:33:19.953440" level="INFO">${TIMEOUT} = 30</msg>
+<msg time="2026-04-22T12:33:19.954524" level="INFO">${RETRY_COUNT} = 2</msg>
+<msg time="2026-04-22T12:33:19.955448" level="INFO">${SCREENSHOT_ON_FAIL} = true</msg>
+<msg time="2026-04-22T12:33:19.955448" level="INFO">Loaded 12 environment variables from Excel for ENV='DEV'</msg>
+<doc>Load all environment variables from Excel and set them as Robot Framework
+Suite Variables so they are available across all test cases in the suite.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.939388" elapsed="0.016060"/>
+</kw>
+<kw name="Log Environment Summary" owner="excel_config.ExcelConfig">
+<msg time="2026-04-22T12:33:19.956441" level="INFO">  ENV = DEV
+  XLSX = C:\Vinodh\Work\Pythonbase\Robot Framework\data\TestData.xlsx
+  Variables:
+    BASE_URL = http://sampleapp.tricentis.com/
+    BROWSER = chromium
+    HEADLESS = false
+    API_URL = https://restful-booker.herokuapp.com
+    API_USERNAME = admin
+    API_PASSWORD = ***
+    LOGIN_URL = https://testautomationpractice.blogspot.com/
+    APP_USERNAME = admin
+    APP_PASSWORD = ***
+    TIMEOUT = 30
+    RETRY_COUNT = 2
+    SCREENSHOT_ON_FAIL = true</msg>
+<doc>Log a summary of all loaded environment variables (masks passwords).</doc>
+<status status="PASS" start="2026-04-22T12:33:19.956441" elapsed="0.000000"/>
+</kw>
+<doc>Read all keys from the Environments sheet in TestData.xlsx
+for the active ENV and expose them as Suite Variables.
+Call this in Suite Setup of every test suite.</doc>
+<status status="PASS" start="2026-04-22T12:33:19.938877" elapsed="0.017564"/>
+</kw>
+<kw name="Open Insurance Application">
+<kw name="New Browser">
+<msg time="2026-04-22T12:33:19.957443" level="FAIL">No keyword with name 'New Browser' found.</msg>
+<arg>browser=${BROWSER}</arg>
+<arg>headless=${HEADLESS}</arg>
+<status status="FAIL" start="2026-04-22T12:33:19.957443" elapsed="0.000000">No keyword with name 'New Browser' found.</status>
+</kw>
+<kw name="New Context">
+<arg>locale=en-GB</arg>
+<status status="NOT RUN" start="2026-04-22T12:33:19.957443" elapsed="0.000000"/>
+</kw>
+<kw name="New Page">
+<arg>${BASE_URL}</arg>
+<status status="NOT RUN" start="2026-04-22T12:33:19.957443" elapsed="0.000000"/>
+</kw>
+<doc>Launch the browser and navigate to the insurance app URL from Excel.</doc>
+<status status="FAIL" start="2026-04-22T12:33:19.956441" elapsed="0.001002">No keyword with name 'New Browser' found.</status>
+</kw>
+<arg>Load Environment Variables</arg>
+<arg>AND</arg>
+<arg>Open Insurance Application</arg>
+<doc>Executes all the given keywords in a sequence.</doc>
+<status status="FAIL" start="2026-04-22T12:33:19.938363" elapsed="0.019080">No keyword with name 'New Browser' found.</status>
+</kw>
+<test id="s1-s7-t1" name="Create Quote for Car" line="19">
+<doc>End-to-end quote creation for the Automobile vehicle type.</doc>
+<tag>smoke</tag>
+<status status="FAIL" start="2026-04-22T12:33:19.957443" elapsed="0.000998">Parent suite setup failed:
+No keyword with name 'New Browser' found.</status>
+</test>
+<doc>Vehicle Insurance UI tests — browser, URL and credentials
+are loaded from data/TestData.xlsx via env.resource.
+Run with: --variable ENV:DEV  (default)
+          --variable ENV:QA
+          --variable ENV:PROD</doc>
+<status status="FAIL" start="2026-04-22T12:33:19.932752" elapsed="0.025689">Suite setup failed:
+No keyword with name 'New Browser' found.</status>
+</suite>
+<status status="FAIL" start="2026-04-22T12:32:19.559655" elapsed="60.399900"/>
+</suite>
+<statistics>
+<total>
+<stat pass="10" fail="7" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="3" skip="0">api</stat>
+<stat pass="3" fail="0" skip="0">regression</stat>
+<stat pass="2" fail="3" skip="0">smoke</stat>
+</tag>
+<suite>
+<stat name="Testscenarios" id="s1" pass="10" fail="7" skip="0">Testscenarios</stat>
+<stat name="Practicetestautomation" id="s1-s1" pass="0" fail="3" skip="0">Testscenarios.Practicetestautomation</stat>
+<stat name="practicetestautomationSuiteA" id="s1-s2" pass="3" fail="0" skip="0">Testscenarios.practicetestautomationSuiteA</stat>
+<stat name="practicetestautomationSuiteB" id="s1-s3" pass="3" fail="0" skip="0">Testscenarios.practicetestautomationSuiteB</stat>
+<stat name="Restful Booker" id="s1-s4" pass="0" fail="3" skip="0">Testscenarios.Restful Booker</stat>
+<stat name="sp BDD" id="s1-s5" pass="2" fail="0" skip="0">Testscenarios.sp BDD</stat>
+<stat name="Testautomationpractice" id="s1-s6" pass="2" fail="0" skip="0">Testscenarios.Testautomationpractice</stat>
+<stat name="Vehicle Insurance App" id="s1-s7" pass="0" fail="1" skip="0">Testscenarios.Vehicle Insurance App</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-04-22T12:32:19.585617" level="ERROR">Error in file 'C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\practicetestautomation.robot' on line 4: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Vinodh\Work\Pythonbase\Robot Framework\core
+  C:\Vinodh\Work\Pythonbase\Robot Framework
+  C:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\python310.zip
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\DLLs
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced
+  C:\ProgramData\robocorp\ht
+  C:\ProgramData\robocorp\ht\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\Pythonwin</msg>
+<msg time="2026-04-22T12:33:19.683508" level="ERROR">Error in file 'C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\Restful Booker.robot' on line 8: Importing library 'RequestsLibrary' failed: ModuleNotFoundError: No module named 'RequestsLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Vinodh\Work\Pythonbase\Robot Framework\core
+  C:\Vinodh\Work\Pythonbase\Robot Framework
+  C:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\python310.zip
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\DLLs
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced
+  C:\ProgramData\robocorp\ht
+  C:\ProgramData\robocorp\ht\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\Pythonwin</msg>
+<msg time="2026-04-22T12:33:19.914546" level="ERROR">Error in file 'C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\testautomationpractice.robot' on line 6: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Vinodh\Work\Pythonbase\Robot Framework\core
+  C:\Vinodh\Work\Pythonbase\Robot Framework
+  C:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\python310.zip
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\DLLs
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced
+  C:\ProgramData\robocorp\ht
+  C:\ProgramData\robocorp\ht\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\Pythonwin</msg>
+<msg time="2026-04-22T12:33:19.935393" level="ERROR">Error in file 'C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\Vehicle Insurance App.robot' on line 8: Importing library 'Browser' failed: ModuleNotFoundError: No module named 'Browser'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Vinodh\Work\Pythonbase\Robot Framework\core
+  C:\Vinodh\Work\Pythonbase\Robot Framework
+  C:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\python310.zip
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\DLLs
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced
+  C:\ProgramData\robocorp\ht
+  C:\ProgramData\robocorp\ht\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>

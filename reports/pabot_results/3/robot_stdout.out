@@ -1,0 +1,19 @@
+==============================================================================
+Testscenarios
+==============================================================================
+Testscenarios.Vehicle Insurance App :: Vehicle Insurance UI tests � browser...
+==============================================================================
+Create Quote for Car :: End-to-end quote creation for the Automobi... | FAIL |
+Parent suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+------------------------------------------------------------------------------
+Testscenarios.Vehicle Insurance App :: Vehicle Insurance UI tests ... | FAIL |
+Suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+
+1 test, 0 passed, 1 failed
+==============================================================================
+Testscenarios                                                         | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\reports\pabot_results\3\output.xml

@@ -1,0 +1,49 @@
+2026-04-22 12:42:58.322574 Error processing line 1 of c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\distutils-precedence.pth:
+2026-04-22 12:42:58.394029 
+2026-04-22 12:42:58.445179   Traceback (most recent call last):
+2026-04-22 12:42:58.511453     File "c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site.py", line 186, in addpackage
+2026-04-22 12:42:58.578585 ==============================================================================
+2026-04-22 12:42:58.578585       exec(line)
+2026-04-22 12:42:58.636791 Testscenarios
+2026-04-22 12:42:58.636791     File "<string>", line 1, in <module>
+2026-04-22 12:42:58.636791 ==============================================================================
+2026-04-22 12:42:58.636791   ModuleNotFoundError: No module named '_distutils_hack'
+2026-04-22 12:42:58.636791 Testscenarios.sp BDD :: BDD-style login tests driven by credentials from da...
+2026-04-22 12:42:58.636791 
+2026-04-22 12:42:58.650756 ==============================================================================
+2026-04-22 12:42:58.650756 Remainder of file ignored
+2026-04-22 12:42:58.650756 Login With Admin :: Verify successful login with valid admin crede... | FAIL |
+2026-04-22 12:42:58.650756 [ ERROR ] Error in file 'C:\Vinodh\Work\Pythonbase\Robot Framework\core\env.resource' on line 14: Importing library 'excel_config.ExcelConfig' failed: ModuleNotFoundError: No module named 'openpyxl'
+2026-04-22 12:42:58.650756 Parent suite setup failed:
+2026-04-22 12:42:58.650756 Traceback (most recent call last):
+2026-04-22 12:42:58.650756 No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+2026-04-22 12:42:58.650756   File "C:\Vinodh\Work\Pythonbase\Robot Framework\core\excel_config.py", line 17, in <module>
+2026-04-22 12:42:58.650756 ------------------------------------------------------------------------------
+2026-04-22 12:42:58.650756     import openpyxl
+2026-04-22 12:42:58.650756 Login With Invalid User :: Verify login fails and shows error with... | FAIL |
+2026-04-22 12:42:58.650756 PYTHONPATH:
+2026-04-22 12:42:58.650756 Parent suite setup failed:
+2026-04-22 12:42:58.650756   C:\Vinodh\Work\Pythonbase\Robot Framework\core
+2026-04-22 12:42:58.650756 No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+2026-04-22 12:42:58.650756   C:\ProgramData\robocorp\ht\Scripts\robot.exe
+2026-04-22 12:42:58.650756 ------------------------------------------------------------------------------
+2026-04-22 12:42:58.650756   C:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\python310.zip
+2026-04-22 12:42:58.650756 Testscenarios.sp BDD :: BDD-style login tests driven by credential... | FAIL |
+2026-04-22 12:42:58.650756   c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\DLLs
+2026-04-22 12:42:58.650756 Suite setup failed:
+2026-04-22 12:42:58.650756   c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib
+2026-04-22 12:42:58.650756 No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?
+2026-04-22 12:42:58.650756   c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced
+2026-04-22 12:42:58.650756 
+2026-04-22 12:42:58.650756   C:\ProgramData\robocorp\ht
+2026-04-22 12:42:58.650756 2 tests, 0 passed, 2 failed
+2026-04-22 12:42:58.650756   C:\ProgramData\robocorp\ht\lib\site-packages
+2026-04-22 12:42:58.650756 ==============================================================================
+2026-04-22 12:42:58.650756   c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages
+2026-04-22 12:42:58.650756 Testscenarios                                                         | FAIL |
+2026-04-22 12:42:58.650756   c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32
+2026-04-22 12:42:58.650756 2 tests, 0 passed, 2 failed
+2026-04-22 12:42:58.650756   c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32\lib
+2026-04-22 12:42:58.650756 ==============================================================================
+2026-04-22 12:42:58.650756   c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\Pythonwin
+2026-04-22 12:42:58.650756 Output:  C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\reports\pabot_results\6\output.xml

@@ -1,0 +1,18 @@
+--suite Testscenarios.Restful Booker
+--variable ENV:DEV
+--variable CALLER_ID:43d1918fd94f492db89ec02066284730
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:1
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:16
+--variable PABOTQUEUEINDEX:1
+--variable PABOTLASTLEVEL:Testscenarios.Restful Booker
+--outputdir C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\reports\pabot_results\1
+--pythonpath C:\Vinodh\Work\Pythonbase\Robot Framework\core
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\testscenarios

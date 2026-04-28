@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.10.12 on win32)" generated="2026-04-22T12:42:58.600752" rpa="false" schemaversion="5">
+<suite id="s1" name="Testscenarios" source="C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios">
+<suite id="s1-s1" name="Practicetestautomation" source="C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\practicetestautomation.robot">
+<test id="s1-s1-t1" name="Valid Login Test" line="17">
+<kw name="Open Homepage">
+<kw name="Open Browser">
+<msg time="2026-04-22T12:42:58.634195" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2026-04-22T12:42:58.634195" elapsed="0.001017">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" start="2026-04-22T12:42:58.635212" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Element Is Visible">
+<arg>id:username</arg>
+<status status="NOT RUN" start="2026-04-22T12:42:58.635212" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2026-04-22T12:42:58.633176" elapsed="0.002036">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Input Username">
+<arg>${VALID_USER}</arg>
+<status status="NOT RUN" start="2026-04-22T12:42:58.635212" elapsed="0.000000"/>
+</kw>
+<kw name="Input Login Password">
+<arg>${VALID_PASSWORD}</arg>
+<status status="NOT RUN" start="2026-04-22T12:42:58.635212" elapsed="0.000000"/>
+</kw>
+<kw name="Click Submit Button">
+<status status="NOT RUN" start="2026-04-22T12:42:58.635212" elapsed="0.000000"/>
+</kw>
+<kw name="Verify Successful Login">
+<status status="NOT RUN" start="2026-04-22T12:42:58.635212" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg time="2026-04-22T12:42:58.636791" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" start="2026-04-22T12:42:58.636791" elapsed="0.000000">No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>Test valid login with correct credentials.</doc>
+<status status="FAIL" start="2026-04-22T12:42:58.633176" elapsed="0.003615">No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-s1-t2" name="Invalid Username Login Test" line="26">
+<kw name="Open Homepage">
+<kw name="Open Browser">
+<msg time="2026-04-22T12:42:58.637806" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2026-04-22T12:42:58.637806" elapsed="0.000000">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" start="2026-04-22T12:42:58.637806" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Element Is Visible">
+<arg>id:username</arg>
+<status status="NOT RUN" start="2026-04-22T12:42:58.637806" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2026-04-22T12:42:58.636791" elapsed="0.001015">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Input Username">
+<arg>${INVALID_USER}</arg>
+<status status="NOT RUN" start="2026-04-22T12:42:58.638834" elapsed="0.000000"/>
+</kw>
+<kw name="Input Login Password">
+<arg>${VALID_PASSWORD}</arg>
+<status status="NOT RUN" start="2026-04-22T12:42:58.638834" elapsed="0.000000"/>
+</kw>
+<kw name="Click Submit Button">
+<status status="NOT RUN" start="2026-04-22T12:42:58.638834" elapsed="0.000000"/>
+</kw>
+<kw name="Verify Error Message">
+<arg>Your username is invalid!</arg>
+<status status="NOT RUN" start="2026-04-22T12:42:58.638834" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg time="2026-04-22T12:42:58.639846" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" start="2026-04-22T12:42:58.639846" elapsed="0.000000">No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>Test login with an incorrect username but correct password.</doc>
+<status status="FAIL" start="2026-04-22T12:42:58.636791" elapsed="0.003055">No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-s1-t3" name="Invalid Password Login Test" line="35">
+<kw name="Open Homepage">
+<kw name="Open Browser">
+<msg time="2026-04-22T12:42:58.639846" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2026-04-22T12:42:58.639846" elapsed="0.000000">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" start="2026-04-22T12:42:58.639846" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Element Is Visible">
+<arg>id:username</arg>
+<status status="NOT RUN" start="2026-04-22T12:42:58.639846" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2026-04-22T12:42:58.639846" elapsed="0.000000">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Input Username">
+<arg>${VALID_USER}</arg>
+<status status="NOT RUN" start="2026-04-22T12:42:58.639846" elapsed="0.000000"/>
+</kw>
+<kw name="Input Login Password">
+<arg>${INVALID_PASSWORD}</arg>
+<status status="NOT RUN" start="2026-04-22T12:42:58.639846" elapsed="0.000000"/>
+</kw>
+<kw name="Click Submit Button">
+<status status="NOT RUN" start="2026-04-22T12:42:58.639846" elapsed="0.000000"/>
+</kw>
+<kw name="Verify Error Message">
+<arg>Your password is invalid!</arg>
+<status status="NOT RUN" start="2026-04-22T12:42:58.639846" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg time="2026-04-22T12:42:58.642355" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" start="2026-04-22T12:42:58.642355" elapsed="0.000000">No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>Test login with a correct username but incorrect password.</doc>
+<status status="FAIL" start="2026-04-22T12:42:58.639846" elapsed="0.002509">No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<doc>A complete test suite for web login on Practice Test Automation.</doc>
+<status status="FAIL" start="2026-04-22T12:42:58.629089" elapsed="0.013266"/>
+</suite>
+<status status="FAIL" start="2026-04-22T12:42:58.602275" elapsed="0.040080"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Testscenarios" id="s1" pass="0" fail="3" skip="0">Testscenarios</stat>
+<stat name="Practicetestautomation" id="s1-s1" pass="0" fail="3" skip="0">Testscenarios.Practicetestautomation</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-04-22T12:42:58.630659" level="ERROR">Error in file 'C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\practicetestautomation.robot' on line 4: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Vinodh\Work\Pythonbase\Robot Framework\core
+  C:\ProgramData\robocorp\ht\Scripts\robot.exe
+  C:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\python310.zip
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\DLLs
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced
+  C:\ProgramData\robocorp\ht
+  C:\ProgramData\robocorp\ht\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>

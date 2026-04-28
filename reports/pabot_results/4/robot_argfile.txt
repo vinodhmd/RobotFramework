@@ -1,0 +1,18 @@
+--suite Testscenarios.practicetestautomationSuiteA
+--variable ENV:DEV
+--variable CALLER_ID:9b63ed4c54f147d9a8f55222599bfe5a
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:4
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:16
+--variable PABOTQUEUEINDEX:4
+--variable PABOTLASTLEVEL:Testscenarios.practicetestautomationSuiteA
+--outputdir C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\reports\pabot_results\4
+--pythonpath C:\Vinodh\Work\Pythonbase\Robot Framework\core
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\testscenarios

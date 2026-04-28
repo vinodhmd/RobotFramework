@@ -1,0 +1,30 @@
+==============================================================================
+Testscenarios
+==============================================================================
+Testscenarios.Practicetestautomation :: A complete test suite for web login...
+==============================================================================
+Valid Login Test :: Test valid login with correct credentials.        | FAIL |
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.
+------------------------------------------------------------------------------
+Invalid Username Login Test :: Test login with an incorrect userna... | FAIL |
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.
+------------------------------------------------------------------------------
+Invalid Password Login Test :: Test login with a correct username ... | FAIL |
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.
+------------------------------------------------------------------------------
+Testscenarios.Practicetestautomation :: A complete test suite for ... | FAIL |
+3 tests, 0 passed, 3 failed
+==============================================================================
+Testscenarios                                                         | FAIL |
+3 tests, 0 passed, 3 failed
+==============================================================================
+Output:  C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\reports\pabot_results\0\output.xml

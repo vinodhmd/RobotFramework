@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.10.12 on win32)" generated="2026-04-22T12:42:58.597964" rpa="false" schemaversion="5">
+<suite id="s1" name="Testscenarios" source="C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios">
+<suite id="s1-s1" name="Testautomationpractice" source="C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\testautomationpractice.robot">
+<kw name="Load Environment Variables" owner="env" type="SETUP">
+<kw name="Load Environment Variables As Suite Variables">
+<msg time="2026-04-22T12:42:58.656424" level="FAIL">No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?</msg>
+<status status="FAIL" start="2026-04-22T12:42:58.656424" elapsed="0.000000">No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?</status>
+</kw>
+<kw name="Log Environment Summary">
+<status status="NOT RUN" start="2026-04-22T12:42:58.656424" elapsed="0.000000"/>
+</kw>
+<doc>Read all keys from the Environments sheet in TestData.xlsx
+for the active ENV and expose them as Suite Variables.
+Call this in Suite Setup of every test suite.</doc>
+<status status="FAIL" start="2026-04-22T12:42:58.654292" elapsed="0.002132">No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?</status>
+</kw>
+<test id="s1-s1-t1" name="My First Test" line="14">
+<doc>Basic smoke test — logs a message.</doc>
+<tag>smoke</tag>
+<status status="FAIL" start="2026-04-22T12:42:58.656424" elapsed="0.000000">Parent suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?</status>
+</test>
+<test id="s1-s1-t2" name="Create A Random String" line="19">
+<doc>Generate and log a random 10-character string.</doc>
+<tag>regression</tag>
+<status status="FAIL" start="2026-04-22T12:42:58.656424" elapsed="0.000000">Parent suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?</status>
+</test>
+<doc>Practice test automation — LOGIN_URL and BROWSER are loaded
+from data/TestData.xlsx via env.resource.</doc>
+<status status="FAIL" start="2026-04-22T12:42:58.637806" elapsed="0.018618">Suite setup failed:
+No keyword with name 'Load Environment Variables As Suite Variables' found. Did you try using keyword 'env.Load Environment Variables' and forgot to use enough whitespace between keyword and arguments?</status>
+</suite>
+<status status="FAIL" start="2026-04-22T12:42:58.598743" elapsed="0.060823"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">regression</stat>
+<stat pass="0" fail="1" skip="0">smoke</stat>
+</tag>
+<suite>
+<stat name="Testscenarios" id="s1" pass="0" fail="2" skip="0">Testscenarios</stat>
+<stat name="Testautomationpractice" id="s1-s1" pass="0" fail="2" skip="0">Testscenarios.Testautomationpractice</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-04-22T12:42:58.648021" level="ERROR">Error in file 'C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\testautomationpractice.robot' on line 6: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Vinodh\Work\Pythonbase\Robot Framework\core
+  C:\ProgramData\robocorp\ht\Scripts\robot.exe
+  C:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\python310.zip
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\DLLs
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced
+  C:\ProgramData\robocorp\ht
+  C:\ProgramData\robocorp\ht\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\Pythonwin</msg>
+<msg time="2026-04-22T12:42:58.654292" level="ERROR">Error in file 'C:\Vinodh\Work\Pythonbase\Robot Framework\core\env.resource' on line 14: Importing library 'excel_config.ExcelConfig' failed: ModuleNotFoundError: No module named 'openpyxl'
+Traceback (most recent call last):
+  File "C:\Vinodh\Work\Pythonbase\Robot Framework\core\excel_config.py", line 17, in &lt;module&gt;
+    import openpyxl
+PYTHONPATH:
+  C:\Vinodh\Work\Pythonbase\Robot Framework\core
+  C:\ProgramData\robocorp\ht\Scripts\robot.exe
+  C:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\python310.zip
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\DLLs
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced
+  C:\ProgramData\robocorp\ht
+  C:\ProgramData\robocorp\ht\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>

@@ -1,0 +1,102 @@
+{"level":30,"time":"2026-04-13T07:39:03.937Z","pid":5668,"hostname":"Giri","msg":"Listening on 127.0.0.1:61453"}
+{"level":30,"time":"2026-04-13T07:39:04.118Z","pid":5668,"hostname":"Giri","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-04-13T07:39:14.039Z","pid":5668,"hostname":"Giri","msg":"Adding browser to stack: chromium, version: 147.0.7727.15"}
+{"level":30,"time":"2026-04-13T07:39:14.039Z","pid":5668,"hostname":"Giri","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-04-13T07:39:14.039Z","pid":5668,"hostname":"Giri","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-04-13T07:39:14.045Z","pid":5668,"hostname":"Giri","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-04-13T07:39:14.045Z","pid":5668,"hostname":"Giri","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"locale\":\"en-GB\",\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-04-13T07:39:14.045Z","pid":5668,"hostname":"Giri","msg":"currentBrowser: {\"_contextStack\":[],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@38730c5e7e2d14afa74e83ff21cb3e4c\"},\"name\":\"chromium\",\"id\":\"browser=b1a89b64-0d6d-4d18-9636-64e5cfe4132e\",\"headless\":false}"}
+{"level":30,"time":"2026-04-13T07:39:14.045Z","pid":5668,"hostname":"Giri","msg":"Trace file: "}
+{"level":30,"time":"2026-04-13T07:39:14.055Z","pid":5668,"hostname":"Giri","msg":"Setting default timeout for context context=802fda63-3525-46ce-8244-fe2bb162d988 to 10000"}
+{"level":30,"time":"2026-04-13T07:39:14.055Z","pid":5668,"hostname":"Giri","msg":"Changed active context: context=802fda63-3525-46ce-8244-fe2bb162d988"}
+{"level":30,"time":"2026-04-13T07:39:14.055Z","pid":5668,"hostname":"Giri","msg":"End of node method newContext"}
+{"level":30,"time":"2026-04-13T07:39:14.059Z","pid":5668,"hostname":"Giri","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-04-13T07:39:14.059Z","pid":5668,"hostname":"Giri","msg":"currentBrowser: {\"_contextStack\":[{\"id\":\"context=802fda63-3525-46ce-8244-fe2bb162d988\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@a9efa95512640805ce6af1eb67144de3\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"locale\":\"en-GB\",\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@38730c5e7e2d14afa74e83ff21cb3e4c\"},\"name\":\"chromium\",\"id\":\"browser=b1a89b64-0d6d-4d18-9636-64e5cfe4132e\",\"headless\":false}"}
+{"level":30,"time":"2026-04-13T07:39:14.160Z","pid":5668,"hostname":"Giri","msg":"Video path: undefined"}
+{"level":30,"time":"2026-04-13T07:39:14.160Z","pid":5668,"hostname":"Giri","msg":"Changed active page"}
+{"level":30,"time":"2026-04-13T07:39:21.748Z","pid":5668,"hostname":"Giri","msg":"End of node method newPage"}
+{"level":30,"time":"2026-04-13T07:39:21.751Z","pid":5668,"hostname":"Giri","msg":"Start of node method click"}
+{"level":30,"time":"2026-04-13T07:39:21.751Z","pid":5668,"hostname":"Giri","msg":"Strict mode is enabled, find Locator with div.main-navigation >> \"Automobile\" in page."}
+{"level":30,"time":"2026-04-13T07:39:22.285Z","pid":5668,"hostname":"Giri","msg":"End of node method click"}
+{"level":30,"time":"2026-04-13T07:39:22.288Z","pid":5668,"hostname":"Giri","msg":"Start of node method selectOption"}
+{"level":30,"time":"2026-04-13T07:39:22.288Z","pid":5668,"hostname":"Giri","msg":"Strict mode is enabled, find Locator with id=make in page."}
+{"level":30,"time":"2026-04-13T07:39:22.324Z","pid":5668,"hostname":"Giri","msg":"Option entries: 16"}
+{"level":30,"time":"2026-04-13T07:39:22.324Z","pid":5668,"hostname":"Giri","msg":"Selected entries: 1"}
+{"level":30,"time":"2026-04-13T07:39:22.324Z","pid":5668,"hostname":"Giri","msg":"End of node method selectOption"}
+{"level":30,"time":"2026-04-13T07:39:22.327Z","pid":5668,"hostname":"Giri","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-13T07:39:22.327Z","pid":5668,"hostname":"Giri","msg":"Strict mode is enabled, find Locator with id=engineperformance in page."}
+{"level":30,"time":"2026-04-13T07:39:22.333Z","pid":5668,"hostname":"Giri","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-13T07:39:22.336Z","pid":5668,"hostname":"Giri","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-13T07:39:22.336Z","pid":5668,"hostname":"Giri","msg":"Strict mode is enabled, find Locator with id=dateofmanufacture in page."}
+{"level":30,"time":"2026-04-13T07:39:22.342Z","pid":5668,"hostname":"Giri","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-13T07:39:22.344Z","pid":5668,"hostname":"Giri","msg":"Start of node method selectOption"}
+{"level":30,"time":"2026-04-13T07:39:22.344Z","pid":5668,"hostname":"Giri","msg":"Strict mode is enabled, find Locator with id=numberofseats in page."}
+{"level":30,"time":"2026-04-13T07:39:22.353Z","pid":5668,"hostname":"Giri","msg":"Option entries: 10"}
+{"level":30,"time":"2026-04-13T07:39:22.353Z","pid":5668,"hostname":"Giri","msg":"Selected entries: 1"}
+{"level":30,"time":"2026-04-13T07:39:22.353Z","pid":5668,"hostname":"Giri","msg":"End of node method selectOption"}
+{"level":30,"time":"2026-04-13T07:39:22.355Z","pid":5668,"hostname":"Giri","msg":"Start of node method selectOption"}
+{"level":30,"time":"2026-04-13T07:39:22.355Z","pid":5668,"hostname":"Giri","msg":"Strict mode is enabled, find Locator with id=fuel in page."}
+{"level":30,"time":"2026-04-13T07:39:22.362Z","pid":5668,"hostname":"Giri","msg":"Option entries: 6"}
+{"level":30,"time":"2026-04-13T07:39:22.362Z","pid":5668,"hostname":"Giri","msg":"Selected entries: 1"}
+{"level":30,"time":"2026-04-13T07:39:22.362Z","pid":5668,"hostname":"Giri","msg":"End of node method selectOption"}
+{"level":30,"time":"2026-04-13T07:39:22.364Z","pid":5668,"hostname":"Giri","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-13T07:39:22.364Z","pid":5668,"hostname":"Giri","msg":"Strict mode is enabled, find Locator with id=listprice in page."}
+{"level":30,"time":"2026-04-13T07:39:22.369Z","pid":5668,"hostname":"Giri","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-13T07:39:22.371Z","pid":5668,"hostname":"Giri","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-13T07:39:22.371Z","pid":5668,"hostname":"Giri","msg":"Strict mode is enabled, find Locator with id=licenseplatenumber in page."}
+{"level":30,"time":"2026-04-13T07:39:22.376Z","pid":5668,"hostname":"Giri","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-13T07:39:22.378Z","pid":5668,"hostname":"Giri","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-13T07:39:22.378Z","pid":5668,"hostname":"Giri","msg":"Strict mode is enabled, find Locator with id=annualmileage in page."}
+{"level":30,"time":"2026-04-13T07:39:22.384Z","pid":5668,"hostname":"Giri","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-13T07:39:22.386Z","pid":5668,"hostname":"Giri","msg":"Start of node method click"}
+{"level":30,"time":"2026-04-13T07:39:22.386Z","pid":5668,"hostname":"Giri","msg":"Strict mode is enabled, find Locator with section[style=\"display: block;\"] >> text=Next » in page."}
+{"level":30,"time":"2026-04-13T07:39:24.807Z","pid":5668,"hostname":"Giri","msg":"End of node method click"}
+{"level":30,"time":"2026-04-13T07:39:24.810Z","pid":5668,"hostname":"Giri","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-13T07:39:24.810Z","pid":5668,"hostname":"Giri","msg":"Strict mode is enabled, find Locator with id=firstname in page."}
+================= Original suppressed error =================
+locator.fill: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('id=firstname')[22m
+[2m    - locator resolved to <input type="text" id="firstname" name="First Name"/>[22m
+[2m    - fill("Max")[22m
+[2m  - attempting fill action[22m
+[2m    2 × waiting for element to be visible, enabled and editable[22m
+[2m      - element is not visible[22m
+[2m    - retrying fill action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and editable[22m
+[2m      - element is not visible[22m
+[2m    - retrying fill action[22m
+[2m      - waiting 100ms[22m
+[2m    20 × waiting for element to be visible, enabled and editable[22m
+[2m       - element is not visible[22m
+[2m     - retrying fill action[22m
+[2m       - waiting 500ms[22m
+
+    at fillText (C:\Users\vinod\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\index.js:8354:17)
+    at async PlaywrightServer.fillText (C:\Users\vinod\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\index.js:9702:26) {
+  name: 'TimeoutError'
+}
+{"level":30,"time":"2026-04-13T07:39:34.823Z","pid":5668,"hostname":"Giri","msg":"Error of node method  fillText"}
+=============================================================
+{"level":30,"time":"2026-04-13T07:39:34.831Z","pid":5668,"hostname":"Giri","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2026-04-13T07:39:34.831Z","pid":5668,"hostname":"Giri","Take screenshot with options: ":{"path":"C:\\Vinodh\\Work\\Pythonbase\\Robot Framework\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2026-04-13T07:39:34.933Z","pid":5668,"hostname":"Giri","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2026-04-13T07:39:34.944Z","pid":5668,"hostname":"Giri","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-13T07:39:34.946Z","pid":5668,"hostname":"Giri","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-13T07:39:34.947Z","pid":5668,"hostname":"Giri","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-13T07:39:34.947Z","pid":5668,"hostname":"Giri","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-13T07:39:34.947Z","pid":5668,"hostname":"Giri","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-13T07:39:34.948Z","pid":5668,"hostname":"Giri","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-13T07:39:34.948Z","pid":5668,"hostname":"Giri","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-13T07:39:34.949Z","pid":5668,"hostname":"Giri","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-13T07:39:34.950Z","pid":5668,"hostname":"Giri","msg":"Changed active context: context=802fda63-3525-46ce-8244-fe2bb162d988"}
+{"level":30,"time":"2026-04-13T07:39:34.950Z","pid":5668,"hostname":"Giri","msg":"Changing current active page: page=c2220acf-e699-45bf-9744-34b906b2687f"}
+{"level":30,"time":"2026-04-13T07:39:34.950Z","pid":5668,"hostname":"Giri","msg":"Changed active page"}
+{"level":30,"time":"2026-04-13T07:39:34.952Z","pid":5668,"hostname":"Giri","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-04-13T07:39:34.964Z","pid":5668,"hostname":"Giri","msg":"Removed page=f8bf0947-c24e-4a7d-90f1-1e76c11b5760 from context=802fda63-3525-46ce-8244-fe2bb162d988 page stack"}
+{"level":30,"time":"2026-04-13T07:39:34.966Z","pid":5668,"hostname":"Giri","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-04-13T07:39:34.970Z","pid":5668,"hostname":"Giri","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-13T07:39:34.970Z","pid":5668,"hostname":"Giri","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-13T07:39:35.004Z","pid":5668,"hostname":"Giri","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-04-13T07:39:35.166Z","pid":5668,"hostname":"Giri","msg":"End of node method closeAllBrowsers"}

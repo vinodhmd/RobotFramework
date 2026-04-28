@@ -1,0 +1,55 @@
+2026-04-22 12:42:58.322574 Error processing line 1 of c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\distutils-precedence.pth:
+2026-04-22 12:42:58.394029 
+2026-04-22 12:42:58.445725   Traceback (most recent call last):
+2026-04-22 12:42:58.511039     File "c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site.py", line 186, in addpackage
+2026-04-22 12:42:58.578585 ==============================================================================
+2026-04-22 12:42:58.578585       exec(line)
+2026-04-22 12:42:58.629089 Testscenarios
+2026-04-22 12:42:58.629089     File "<string>", line 1, in <module>
+2026-04-22 12:42:58.629089 ==============================================================================
+2026-04-22 12:42:58.629089   ModuleNotFoundError: No module named '_distutils_hack'
+2026-04-22 12:42:58.629598 Testscenarios.Practicetestautomation :: A complete test suite for web login...
+2026-04-22 12:42:58.629598 
+2026-04-22 12:42:58.650756 ==============================================================================
+2026-04-22 12:42:58.650756 Remainder of file ignored
+2026-04-22 12:42:58.650756 Valid Login Test :: Test valid login with correct credentials.        | FAIL |
+2026-04-22 12:42:58.650756 [ ERROR ] Error in file 'C:\Vinodh\Work\Pythonbase\Robot Framework\testscenarios\practicetestautomation.robot' on line 4: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+2026-04-22 12:42:58.650756 No keyword with name 'Open Browser' found.
+2026-04-22 12:42:58.650756 Traceback (most recent call last):
+2026-04-22 12:42:58.650756 
+2026-04-22 12:42:58.650756   None
+2026-04-22 12:42:58.650756 Also teardown failed:
+2026-04-22 12:42:58.650756 PYTHONPATH:
+2026-04-22 12:42:58.650756 No keyword with name 'Close Browser' found.
+2026-04-22 12:42:58.650756   C:\Vinodh\Work\Pythonbase\Robot Framework\core
+2026-04-22 12:42:58.650756 ------------------------------------------------------------------------------
+2026-04-22 12:42:58.650756   C:\ProgramData\robocorp\ht\Scripts\robot.exe
+2026-04-22 12:42:58.652271 Invalid Username Login Test :: Test login with an incorrect userna... | FAIL |
+2026-04-22 12:42:58.652271   C:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\python310.zip
+2026-04-22 12:42:58.652271 No keyword with name 'Open Browser' found.
+2026-04-22 12:42:58.652271   c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\DLLs
+2026-04-22 12:42:58.652271 
+2026-04-22 12:42:58.652271   c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib
+2026-04-22 12:42:58.652271 Also teardown failed:
+2026-04-22 12:42:58.652271   c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced
+2026-04-22 12:42:58.652271 No keyword with name 'Close Browser' found.
+2026-04-22 12:42:58.652271   C:\ProgramData\robocorp\ht
+2026-04-22 12:42:58.652271 ------------------------------------------------------------------------------
+2026-04-22 12:42:58.652271   C:\ProgramData\robocorp\ht\lib\site-packages
+2026-04-22 12:42:58.652271 Invalid Password Login Test :: Test login with a correct username ... | FAIL |
+2026-04-22 12:42:58.652271   c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages
+2026-04-22 12:42:58.652271 No keyword with name 'Open Browser' found.
+2026-04-22 12:42:58.652271   c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32
+2026-04-22 12:42:58.652271 
+2026-04-22 12:42:58.652271   c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\win32\lib
+2026-04-22 12:42:58.652271 Also teardown failed:
+2026-04-22 12:42:58.652271   c:\ProgramData\robocorp\ht\584d28d_b1f3c24_66529ced\lib\site-packages\Pythonwin
+2026-04-22 12:42:58.652271 No keyword with name 'Close Browser' found.
+2026-04-22 12:42:58.652271 ------------------------------------------------------------------------------
+2026-04-22 12:42:58.652271 Testscenarios.Practicetestautomation :: A complete test suite for ... | FAIL |
+2026-04-22 12:42:58.652271 3 tests, 0 passed, 3 failed
+2026-04-22 12:42:58.652271 ==============================================================================
+2026-04-22 12:42:58.652271 Testscenarios                                                         | FAIL |
+2026-04-22 12:42:58.652271 3 tests, 0 passed, 3 failed
+2026-04-22 12:42:58.652271 ==============================================================================
+2026-04-22 12:42:58.652271 Output:  C:\Vinodh\Work\Pythonbase\Robot Framework\core\..\reports\pabot_results\0\output.xml
