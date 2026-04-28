@@ -7,6 +7,21 @@ Welcome to the modernized Robot Framework automation suite. This framework lever
 
 The framework relies on a three-tier execution flow cleanly separating core logic, declarative data handling, and automation scripts:
 
+### Architecture Diagram
+
+```mermaid
+graph TD;
+    A[Test Execution powershell] --> B[Core Configuration setup_env_config / robot_run.ps1];
+    B --> C[Data Layer TestData.xlsx & env.resource];
+    C --> D[Locators Objectlocators.py];
+    C --> E[Test Scenarios .robot files];
+    D --> E;
+    E --> F[Robot Framework & Browser/Selenium Library];
+    F --> G[Allure/HTML Reports & Logs];
+```
+
+### Component Details
+
 - **`core/`**: The execution engine. Houses `robot_run.ps1`, `excel_config.py`, and `env.resource`. 
 - **`data/`**: The test data layer. Contains `TestData.xlsx`, which centralizes all environment mappings (URLs, browser settings, API credentials) and data across QA, DEV, and PROD.
 - **`locators/`**: The Page Object repository. Contains `Objectlocators.py`, which generalizes all object UI maps (CSS/ID blocks) avoiding hardcoded parameters in tests.
