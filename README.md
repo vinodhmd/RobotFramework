@@ -20,6 +20,60 @@ graph TD;
     F --> G[Allure/HTML Reports & Logs];
 ```
 
+### Execution Sequence Flow
+
+The following diagram shows how a test run flows from user command through to final reporting:
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Terminal
+    participant Core
+    participant ExcelConfig
+    participant RobotSuites
+    participant Reports
+
+    User->>Terminal: Run robot_run.ps1 -Env QA -Parallel
+    Terminal->>Core: Trigger execution sequence
+    Core->>ExcelConfig: Load TestData.xlsx configuration
+    ExcelConfig->>ExcelConfig: Extract QA base URLs & credentials
+    ExcelConfig->>Core: Expose environment variables
+    Core->>RobotSuites: Initialize Pabot thread distribution
+    RobotSuites->>RobotSuites: Run test scenarios concurrently
+    RobotSuites->>Reports: Compile Allure/HTML logs
+    Reports->>User: Deliver graphical test results
+```
+
+### Component Relationship Diagram
+
+Shows how the core, data, and locator layers are interconnected:
+
+```mermaid
+erDiagram
+    CORE ||--o{ TEST_SCENARIOS : executes
+    CORE {
+        script robot_run_ps1
+        script excel_config_py
+        resource env_resource
+    }
+    EXCEL_CONFIG ||--|{ TEST_SCENARIOS : injects_data
+    EXCEL_CONFIG {
+        file TestData_xlsx
+        sheet Environments
+        sheet TestScenarios
+    }
+    LOCATORS ||--o{ TEST_SCENARIOS : supplies_selectors
+    LOCATORS {
+        python Objectlocators_py
+    }
+    TEST_SCENARIOS ||--o{ REPORTS : generates
+    REPORTS {
+        format Allure
+        format HTML
+        format XML_Log
+    }
+```
+
 ### Component Details
 
 - **`core/`**: The execution engine. Houses `robot_run.ps1`, `excel_config.py`, and `env.resource`. 
