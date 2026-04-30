@@ -11,7 +11,7 @@ Documentation    Common resource file that loads Environment Variables from
 ...                  ${BASE_URL}   ${BROWSER}   ${HEADLESS}
 ...                  ${API_URL}    ${API_USERNAME}   ${APP_USERNAME}
 
-Library    excel_config.ExcelConfig    ${ENV}
+Library    ./ExcelConfig.py    ${ENV}
 
 
 *** Variables ***

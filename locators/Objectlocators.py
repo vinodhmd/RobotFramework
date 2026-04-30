@@ -48,3 +48,6 @@ COMMENTS_TEXTAREA = '"Comments" >> .. >> textarea'
 SEND_EMAIL_BUTTON = '"« Send »"'
 SUCCESS_MESSAGE_TEXT = '"Sending e-mail success!"'
 OK_BUTTON = '"OK"'
+
+# Google Locators
+GOOGLE_SEARCH_BOX = 'name=q'

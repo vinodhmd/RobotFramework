@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-04-30T11:24:30.226290" rpa="false" schemaversion="5">
+<suite id="s1" name="Ts Seltest01" source="C:\Vinodh\Work\Pythonbase\RobotFramework\testscenarios\ts_seltest01.robot">
+<kw name="Load Environment Variables" owner="env" type="SETUP">
+<kw name="Load Environment Variables As Suite Variables" owner="ExcelConfig">
+<msg time="2026-04-30T11:24:30.447356" level="INFO">${BASE_URL} = http://sampleapp.tricentis.com/</msg>
+<msg time="2026-04-30T11:24:30.447804" level="INFO">${BROWSER} = chrome</msg>
+<msg time="2026-04-30T11:24:30.448231" level="INFO">${HEADLESS} = false</msg>
+<msg time="2026-04-30T11:24:30.448632" level="INFO">${API_URL} = https://restful-booker.herokuapp.com</msg>
+<msg time="2026-04-30T11:24:30.449133" level="INFO">${API_USERNAME} = admin</msg>
+<msg time="2026-04-30T11:24:30.449611" level="INFO">${API_PASSWORD} = password123</msg>
+<msg time="2026-04-30T11:24:30.450050" level="INFO">${LOGIN_URL} = https://testautomationpractice.blogspot.com/</msg>
+<msg time="2026-04-30T11:24:30.450556" level="INFO">${APP_USERNAME} = admin</msg>
+<msg time="2026-04-30T11:24:30.451105" level="INFO">${APP_PASSWORD} = admin</msg>
+<msg time="2026-04-30T11:24:30.451541" level="INFO">${TIMEOUT} = 30</msg>
+<msg time="2026-04-30T11:24:30.452034" level="INFO">${RETRY_COUNT} = 2</msg>
+<msg time="2026-04-30T11:24:30.452526" level="INFO">${SCREENSHOT_ON_FAIL} = true</msg>
+<msg time="2026-04-30T11:24:30.452990" level="INFO">${GOOGLE_URL} = https://google.com</msg>
+<msg time="2026-04-30T11:24:30.453011" level="INFO">Loaded 13 environment variables from Excel for ENV='DEV'</msg>
+<doc>Load all environment variables from Excel and set them as Robot Framework
+Suite Variables so they are available across all test cases in the suite.</doc>
+<status status="PASS" start="2026-04-30T11:24:30.442203" elapsed="0.010901"/>
+</kw>
+<kw name="Log Environment Summary" owner="ExcelConfig">
+<msg time="2026-04-30T11:24:30.453325" level="INFO">  ENV = DEV
+  XLSX = C:\Vinodh\Work\Pythonbase\RobotFramework\data\TestData.xlsx
+  Variables:
+    BASE_URL = http://sampleapp.tricentis.com/
+    BROWSER = chrome
+    HEADLESS = false
+    API_URL = https://restful-booker.herokuapp.com
+    API_USERNAME = admin
+    API_PASSWORD = ***
+    LOGIN_URL = https://testautomationpractice.blogspot.com/
+    APP_USERNAME = admin
+    APP_PASSWORD = ***
+    TIMEOUT = 30
+    RETRY_COUNT = 2
+    SCREENSHOT_ON_FAIL = true
+    GOOGLE_URL = https://google.com</msg>
+<doc>Log a summary of all loaded environment variables (masks passwords).</doc>
+<status status="PASS" start="2026-04-30T11:24:30.453235" elapsed="0.000124"/>
+</kw>
+<doc>Read all keys from the Environments sheet in TestData.xlsx
+for the active ENV and expose them as Suite Variables.
+Call this in Suite Setup of every test suite.</doc>
+<status status="PASS" start="2026-04-30T11:24:30.441762" elapsed="0.011720"/>
+</kw>
+<test id="s1-t1" name="My First Web Test" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-04-30T11:24:30.454002" level="INFO">Opening browser 'chrome' to base url 'https://google.com'.</msg>
+<arg>${GOOGLE_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-04-30T11:24:30.453842" elapsed="1.059591"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-04-30T11:24:31.513752" elapsed="0.039016"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${GOOGLE_SEARCH_BOX}</arg>
+<arg>timeout=${TIMEOUT}s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-04-30T11:24:31.553056" elapsed="0.034962"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-30T11:24:31.589140" level="INFO">Typing text 'Robot Framework' into text field 'name=q'.</msg>
+<arg>${GOOGLE_SEARCH_BOX}</arg>
+<arg>Robot Framework</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-30T11:24:31.588617" elapsed="0.068958"/>
+</kw>
+<kw name="Press Keys" owner="SeleniumLibrary">
+<msg time="2026-04-30T11:24:31.658322" level="INFO">Sending key(s) ('ENTER',) to name=q element.</msg>
+<msg time="2026-04-30T11:24:31.946684" level="INFO">Pressing special key ENTER to element.</msg>
+<msg time="2026-04-30T11:24:31.946846" level="INFO">Releasing special key ENTER.</msg>
+<arg>${GOOGLE_SEARCH_BOX}</arg>
+<arg>ENTER</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<status status="PASS" start="2026-04-30T11:24:31.657905" elapsed="0.294875"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-04-30T11:24:31.953340" level="INFO">Slept 0 seconds.</msg>
+<arg>0s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-04-30T11:24:31.953043" elapsed="0.000343"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>robotframework.org</arg>
+<arg>timeout=${TIMEOUT}s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-04-30T11:24:31.953540" elapsed="18.008255"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-04-30T11:25:04.963041" level="INFO">Slept 15 seconds.</msg>
+<arg>15s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-04-30T11:24:49.962235" elapsed="15.001096"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-04-30T11:25:04.964501" elapsed="2.150372"/>
+</kw>
+<status status="PASS" start="2026-04-30T11:24:30.453558" elapsed="36.662502"/>
+</test>
+<test id="s1-t2" name="Read Excel Data Test" line="20">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n--- Excel Data Variables ---</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-30T11:25:07.118262" elapsed="0.001056"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>ENV: ${ENV}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-30T11:25:07.119792" elapsed="0.000957"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>BASE_URL: ${BASE_URL}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-30T11:25:07.121303" elapsed="0.000603"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>BROWSER: ${BROWSER}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-30T11:25:07.122354" elapsed="0.000539"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>LOGIN_URL: ${LOGIN_URL}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-30T11:25:07.123181" elapsed="0.000372"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>APP_USERNAME: ${APP_USERNAME}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-30T11:25:07.123733" elapsed="0.000341"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>TIMEOUT: ${TIMEOUT}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-30T11:25:07.124373" elapsed="0.000484"/>
+</kw>
+<doc>Gets the data from TestData.xlsx</doc>
+<status status="PASS" start="2026-04-30T11:25:07.117245" elapsed="0.007863"/>
+</test>
+<status status="PASS" start="2026-04-30T11:24:30.227474" elapsed="36.898326"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Ts Seltest01" id="s1" pass="2" fail="0" skip="0">Ts Seltest01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
